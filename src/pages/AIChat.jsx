@@ -48,12 +48,6 @@ function AIChat() {
     await navigator.clipboard.writeText(answer);
     alert("✅ Answer copied successfully!");
   };
-const copyAnswer = async () => {
-  if (!answer) return;
-
-  await navigator.clipboard.writeText(answer);
-  alert("✅ Answer copied successfully!");
-};
 
 const downloadPDF = () => {
   const doc = new jsPDF();
